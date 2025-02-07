@@ -21,6 +21,8 @@ Default.args = {
     "Bluetooth Connectivity",
     "Touchscreen",
     "Steering Mounted Controls",
+    "WiFi connet",
+    "settings"
   ],
   showAll: false,
 };
