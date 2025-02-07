@@ -22,7 +22,7 @@ Default.args = {
     "Touchscreen",
     "Steering Mounted Controls",
     "WiFi connet",
-    "settings"
+    "settings",
   ],
   showAll: false,
 };
@@ -40,6 +40,8 @@ ShowAll.args = {
     "Rear Camera",
     "Leather Seats",
     "Automatic Headlights",
+    "settings",
+    
   ],
   showAll: true,
 };
