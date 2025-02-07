@@ -3,9 +3,9 @@ body {
   font-family: sans-serif;
 }
 .container {
-  max-width: 1100px;
+  max-width: 6000px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 100px;
   font-family: Arial, sans-serif;
   background-color: rgb(241, 241, 241);
 }
@@ -50,8 +50,8 @@ body {
   margin-left: auto;
   background: #f9f7f7;
   color: black;
-  font-size: 17px;
-  margin-left: 14px;
+  font-size: 15px;
+  margin-left: 13px;
 }
 .categories .filter-image {
   display: flex;

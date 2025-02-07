@@ -33,9 +33,9 @@ const menu = () => {
             <div className="food-price">
               <span>
                 <a href="">12%</a>
-                <p>Rp 115,000,00</p>
+                <p>Rp 500</p>
               </span>
-              <h4> Rp 60.000,00</h4>
+              <h4> Rp 250</h4>
             </div>
             <div className="order">
               <button>Order</button>
@@ -51,9 +51,9 @@ const menu = () => {
             <div className="food-price">
               <span>
                 <a href="">15%</a>
-                <p>Rp 95,000,00</p>
+                <p>Rp 500</p>
               </span>
-              <h4> Rp 81.700,00</h4>
+              <h4> Rp 300</h4>
             </div>
             <div className="food-quantity">
               <img src={minus} alt="" width={10}/>
@@ -72,9 +72,9 @@ const menu = () => {
             <div className="food-price">
               <span>
                 <a href="">15%</a>
-                <p>Rp 80,000,00</p>
+                <p>Rp 900</p>
               </span>
-              <h4> Rp 68.000,00</h4>
+              <h4> Rp 200</h4>
             </div>
             <div className="food-quantity">
               <img src={minus} alt="" />
@@ -92,9 +92,9 @@ const menu = () => {
             <div className="food-price">
               <span>
                 <a href="">15%</a>
-                <p>Rp 200,000,00</p>
+                <p>Rp 1000</p>
               </span>
-              <h4> Rp 170.000,00</h4>
+              <h4> Rp 500</h4>
             </div>
             <div className="order">
               <button>Order</button>
@@ -170,90 +170,13 @@ const menu = () => {
             </div>
           </div>
         </div>
-
-        <div className="menu-item">
-          <img src={healthy} alt="Healthy Kids Meal" />
-          <h2>Healthy Kids Meal</h2>
-          <div className="foods">
-            <div className="food-rate">
-              <p>Price per portion </p>
-              <h2>Rp 78.000,00</h2>
-            </div>
-            <div className="food-quantity">
-              <img src={minus} alt="" />
-              <span>2</span>
-              <div className="plus-image">
-                <img src={plus} alt="" />
-              </div>
-            </div>
           </div>
         </div>
 
-        <div className="menu-item">
-          <img src={mango} alt="Mango Cereal Milk" />
-          <h2>Mango Cereal Milk</h2>
-          <div className="foods">
-            <div className="food-rate">
-              <p>Price per portion </p>
-              <h2>Rp 78.000,00</h2>
-            </div>
-            <div className="food-quantity">
-              <img src={minus} alt="" />
-              <span>2</span>
-              <div className="plus-image">
-                <img src={plus} alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="menu-item">
-          <img src={smoothie} alt="Smoothie Brown Berry" />
-          <h2>Smoothie Brown Berry</h2>
-          <div className="food-order">
-            <div className="food-price">
-              <p>Price per portion</p>
-              <h2> Rp 95.000,00</h2>
-            </div>
-            <div className="order">
-              <button>Order</button>
-            </div>
-          </div>
-        </div>
-
-        <div className="menu-item">
-          <img src={rainbow} alt="Rainbow Cupcake" />
-          <h2>Rainbow Cupcake</h2>
-          <div className="foods">
-            <div className="food-rate">
-              <p>Price per portion </p>
-              <h2>Rp 78.000,00</h2>
-            </div>
-            <div className="food-quantity">
-              <img src={minus} alt="" />
-              <span>2</span>
-              <div className="plus-image">
-                <img src={plus} alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="menu-item">
-          <img src={mie} alt="Mie Gocengan Spicy" />
-          <h2>Mie Gocengan Spicy</h2>
-          <div className="food-order">
-            <div className="food-price">
-              <p>Price per portion</p>
-              <h2> Rp 95.000,00</h2>
-            </div>
-            <div className="order">
-              <button>Order</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+        
+          
+        
+     
   );
 };
 
