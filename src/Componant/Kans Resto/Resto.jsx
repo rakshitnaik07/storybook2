@@ -3,11 +3,6 @@ import "./Resto.css";
 import biscuit from "./imges/Biscuit_Susu.png";
 import krosang from "./imges/Krosang.png";
 import strawberry from "./imges/Strawberry.png";
-import healthy from "./imges/S_Kids_Meal.png";
-import mango from "./imges/Mangoo_Milk.png";
-import smoothie from "./imges/Smoothie_Berry.png";
-import rainbow from "./imges/Rainbow_Cupcake.png";
-import mie from "./imges/Mie_Gocengan.png";
 import filter from "./imges/Filter.png";
 import minus from "./imges/Minus.png";
 import plus from "./imges/Plus.png";
@@ -126,11 +121,11 @@ const menu = () => {
       <div className="menu-grid">
         <div className="menu-item">
           <img src={biscuit} alt="Biscuit Mama with Susu" />
-          <h2>Biscuit Mama with Susu</h2>
+          <h2>toast biscuit with milk</h2>
           <div className="food-order">
             <div className="food-price">
               <p>Price per portion</p>
-              <h2> Rp 60.000,00</h2>
+              <h2> Rp 100,00</h2>
             </div>
             <div className="order">
               <button>Order</button>
@@ -140,12 +135,12 @@ const menu = () => {
 
         <div className="menu-item">
           <img src={krosang} alt="Krosang Thats It" />
-          <h2>Krosang Thats It</h2>
+          <h2>chicken bread </h2>
 
           <div className="foods">
             <div className="food-rate">
               <p>Price per portion </p>
-              <h2>Rp 78.000,00</h2>
+              <h2>Rp 250.00</h2>
             </div>
             <div className="food-quantity">
               <img src={minus} alt="" />
@@ -163,7 +158,7 @@ const menu = () => {
           <div className="food-order">
             <div className="food-price">
               <p>Price per portion</p>
-              <h2> Rp 45.000,00</h2>
+              <h2> Rp 450,00</h2>
             </div>
             <div className="order">
               <button>Order</button>
