@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "../header";
 export default{
@@ -6,4 +7,4 @@ export default{
   };
   
 
-export const Default=()=><header/>
+export const Default=()=><Header/>
